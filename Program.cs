@@ -6,7 +6,7 @@ namespace Choose_Your_Class
     {
         static void Main(string[] args)
         {
-            ToDo myToDoList = new ToDo();
+            List myToDoList = new List();
             Console.WriteLine("Hello! Welcome to the To-Do List App.");
             bool usingToDoList = true;
             while (usingToDoList)
